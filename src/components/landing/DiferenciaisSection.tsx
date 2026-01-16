@@ -42,7 +42,7 @@ const diferenciais = [
 
 const DiferenciaisSection = () => {
   return (
-    <section id="diferenciais" className="py-20 bg-accent/30">
+    <section id="diferenciais" className="py-20 bg-accent/40">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -68,7 +68,7 @@ const DiferenciaisSection = () => {
                 className="group bg-card hover:shadow-lg transition-all duration-300 border-border hover:border-primary/30"
               >
                 <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/10 transition-colors">
+                  <div className="w-12 h-12 bg-accent/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/10 transition-colors">
                     <item.icon className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">

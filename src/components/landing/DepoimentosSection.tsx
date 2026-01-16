@@ -73,7 +73,7 @@ const DepoimentosSection = () => {
 
                   {/* Author */}
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
+                    <div className="w-10 h-10 bg-accent/50 rounded-full flex items-center justify-center">
                       <span className="text-primary font-semibold text-sm">
                         {depoimento.nome.charAt(0)}
                       </span>

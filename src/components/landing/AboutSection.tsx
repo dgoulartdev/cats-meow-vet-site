@@ -56,15 +56,15 @@ const AboutSection = () => {
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 mt-8">
-                <div className="text-center p-4 bg-accent/50 rounded-lg">
+                <div className="text-center p-4 bg-accent/40 rounded-lg">
                   <p className="text-2xl font-bold text-primary">5+</p>
                   <p className="text-xs text-muted-foreground">Anos de experiência</p>
                 </div>
-                <div className="text-center p-4 bg-accent/50 rounded-lg">
+                <div className="text-center p-4 bg-accent/40 rounded-lg">
                   <p className="text-2xl font-bold text-primary">500+</p>
                   <p className="text-xs text-muted-foreground">Gatinhos atendidos</p>
                 </div>
-                <div className="text-center p-4 bg-accent/50 rounded-lg">
+                <div className="text-center p-4 bg-accent/40 rounded-lg">
                   <p className="text-2xl font-bold text-primary">100%</p>
                   <p className="text-xs text-muted-foreground">Foco em felinos</p>
                 </div>

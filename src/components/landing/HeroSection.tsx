@@ -8,7 +8,7 @@ const HeroSection = () => {
   );
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-accent to-background overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-accent/60 to-background overflow-hidden">
       <div className="container mx-auto px-4 py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
