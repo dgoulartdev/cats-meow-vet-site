@@ -147,7 +147,15 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+  }
+
+  section[id] {
+    scroll-margin-top: 5rem;
   }
 }
